@@ -4,7 +4,10 @@
 
 clear
 
+
 apt update && apt upgrade -y
+
+pkg install figlet
 
 figlet nodejs-lts installation started
 
